@@ -1,0 +1,6 @@
+CREATE TABLE jobs1 (
+    job_id INT NOT NULL UNIQUE PRIMARY KEY,
+    job_title VARCHAR(50) NOT NULL DEFAULT '',
+    min_salary DECIMAL(6,0) DEFAULT 8000,
+    max_salary DECIMAL(6,0) DEFAULT NULL
+);
